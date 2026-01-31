@@ -90,9 +90,9 @@ Resumen ultra corto: Broadcast → evento agendado; Live → transmisión en cur
 - If a broadcast is “upcoming” and unlisted, use `list_upcoming` or `live_chats_list` to get its `liveChatId`.
 
 ## Current Account (session context)
-- Active channel: Checho Campos (@sergiocamposvaldes)
-- Channel ID: UCKVQ1WLZlEErdQ4_36_doag
-- Activated on: 2026-01-31 (session)
+- Active channel: (set at runtime)
+- Channel ID: (set at runtime)
+- Activated on: (set at runtime)
 
 ## Example Exercises (based on the session)
 1) List completed broadcasts and pick the latest
