@@ -1,6 +1,12 @@
 ---
 name: youtube-streamings
-description: Manage YouTube live broadcasts via the YouTube MCP: list completed and upcoming broadcasts, inspect a broadcast and its bound stream, schedule a new unlisted broadcast (optionally +N minutes from now), bind it to an existing stream to reuse connection parameters, list live chats for broadcasts, and update thumbnails from a local file or base64. Use when the user asks to view past transmissions, find upcoming/hidden scheduled events, schedule a new stream, reuse previous ingest settings, list chats, or set thumbnails.
+description: >
+  Manage YouTube live broadcasts via the YouTube MCP: list completed and upcoming broadcasts,
+  inspect a broadcast and its bound stream, schedule a new unlisted broadcast (optionally +N
+  minutes from now), bind it to an existing stream to reuse connection parameters, list live
+  chats for broadcasts, and update thumbnails from a local file or base64. Use when the user asks
+  to view past transmissions, find upcoming/hidden scheduled events, schedule a new stream, reuse
+  previous ingest settings, list chats, or set thumbnails.
 ---
 
 # Youtube Streamings
