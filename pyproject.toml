@@ -13,10 +13,12 @@ dependencies = [
     "httpx>=0.25.0",
     "pydantic>=2.5.0",
     "python-dotenv>=1.0.0",
+    "skills-ref>=0.1.1",
 ]
 
 [project.scripts]
 youtube-mcp = "main:main"
+youtube-mcp-stdio = "stdio_main:main"
 
 [tool.hatch.build.targets.wheel]
 sources = ["src"]

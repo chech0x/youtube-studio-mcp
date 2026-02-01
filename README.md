@@ -17,6 +17,15 @@ cp .env.example .env  # create your env file
 uv run python -m main
 ```
 
+### Stdio mode
+
+```bash
+uv run python -m stdio_main
+```
+
+Notes:
+- Stdio mode does not expose the `/callback` HTTP route. For OAuth, use the HTTP mode to capture the redirect.
+
 ## OAuth setup
 
 Set these in `.env`:
